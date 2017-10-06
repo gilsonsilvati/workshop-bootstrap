@@ -195,7 +195,51 @@
 
 				<form>
 					<div class="modal-body">
-						
+						<div class="row">
+							<div class="form-group col-xs-12">
+								<label>Código da OS</label>
+								<p class="form-control-static">61153</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="form-group col-sm-5">
+								<label for="cliente">Cliente</label>
+								<select id="cliente" class="form-control">
+									<option value="">Selecione...</option>
+									<option value="1">Seu Saraiva</option>
+									<option value="2">MalMal</option>
+									<option value="3">Fenaquinho</option>
+								</select>
+							</div>
+
+							<div class="form-group col-sm-7">
+								<label for="servico">Serviços</label>
+								<select id="servico" class="form-control">
+									<option value="">Selecione...</option>
+									<option value="1">Arrumar Alternador</option>
+									<option value="2">Troca de Bateria</option>
+									<option value="3">Troca de Oléo</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="form-group col-xs-12">
+								<label for="observacao">Observação</label>
+								<textarea id="observacao" class="form-control" rows="3"></textarea>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="form-group col-sm-4">
+								<label for="valor">Valor</label>
+								<div class="input-group">
+									<div class="input-group-addon">R$</div>
+									<input id="valor" type="text" class="form-control">
+								</div>
+							</div>
+						</div>
 					</div>
 
 					<div class="modal-footer">

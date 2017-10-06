@@ -36,6 +36,10 @@
 	margin: 0px;
 }
 
+textarea {
+    resize: none;
+}
+
 @media (max-width: 767px) {
 	.perfil {
 		color: #FFF;
